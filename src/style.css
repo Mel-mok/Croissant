@@ -7,6 +7,7 @@ body {
   text-align: center;
   background-color: var(--back);
   max-width: 80%;
+  margin: 0 auto;
 }
 h1 {
   margin-top: 45px;
