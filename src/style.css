@@ -1,0 +1,43 @@
+:root {
+  --primary-color: rgb(71, 22, 22);
+  --back: rgb(197, 197, 194);
+  --text-size: 20px;
+}
+body {
+  text-align: center;
+  background-color: var(--back);
+}
+h1 {
+  margin-top: 45px;
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+p {
+  font-size: var(--text-size);
+  line-height: 1.5;
+}
+.contact-link {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+a {
+  color: var(--primary-color);
+  font-size: var(--text-size);
+}
+.back-link {
+  margin-top: 15px;
+  display: flex;
+  padding-left: 10px;
+}
+.address {
+  font-size: var(--text-size);
+  line-height: 1.5;
+}
+img {
+  width: 500px;
+  border-radius: 5px;
+}
+h3 {
+  color: var(--primary-color);
+  font-size: var(--text-size);
+}
